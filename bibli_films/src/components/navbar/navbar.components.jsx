@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import {AiOutlineSearch} from 'react-icons/ai   '
+import Home from '../../pages/Home'
 
 const NavBar = () => {
   return (
@@ -13,6 +14,7 @@ const NavBar = () => {
             <input type="text" placeholder='Busque um filme' />
             <button type='submit'><AiOutlineSearch/></button>
         </form>
+        <Home/>
     </>
   )
 }
