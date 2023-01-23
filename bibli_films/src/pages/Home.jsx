@@ -16,12 +16,12 @@ const Home = () => {
 
     useEffect(() => {
         const topRatedUrl = `${moviesURL}top_rated?${apiKey}`;
-        console.log(topRatedUrl);
+        // console.log(topRatedUrl)
         getTopRatedMovies(topRatedUrl);
       }, []);
     
 
-    console.log(topMovies)
+    // console.log(topMovies)
     return (
         <div className="container">
             <h2 className="title">Melhores Filmes:</h2>
